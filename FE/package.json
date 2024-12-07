@@ -1,0 +1,41 @@
+{
+  "name": "project_mobile",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "^4.0.0",
+    "@react-native-community/datetimepicker": "^8.2.0",
+    "@react-native-community/slider": "^4.5.5",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/stack": "^6.4.1",
+    "axios": "^1.7.9",
+    "expo": "~51.0.28",
+    "expo-blur": "~13.0.2",
+    "expo-linear-gradient": "^14.0.1",
+    "expo-speech": "^13.0.0",
+    "expo-status-bar": "~1.12.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "^0.74.6",
+    "react-native-date-ranges": "^2.5.0",
+    "react-native-datepicker": "^1.7.2",
+    "react-native-dropdown-picker": "^5.4.6",
+    "react-native-modal-datetime-picker": "^18.0.0",
+    "react-native-multi-slider": "^0.3.6",
+    "react-native-safe-area-context": "^4.14.0",
+    "react-native-screens": "^3.35.0",
+    "react-native-vector-icons": "^10.2.0",
+    "react-native-web": "^0.19.12",
+    "@google/generative-ai": "^0.21.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
